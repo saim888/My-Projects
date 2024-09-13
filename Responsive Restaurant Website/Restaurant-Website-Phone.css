@@ -1,0 +1,68 @@
+#services
+{
+    flex-direction: column;
+}
+
+#clients
+{
+    overflow: hidden;
+}
+
+#navbar 
+{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#navbar ul li a 
+{
+    padding: 0px 7px ;
+    font-size: 0.8rem;
+    padding-bottom: 12px;
+}
+
+#home 
+{
+    height: 375px;
+    padding: 0px 46px;
+    
+}
+#home::before
+{
+    height: 515px;
+}
+.h-primary
+{
+font-size: 26px;
+}
+.btn
+{
+    font-size: 15px;
+    padding: 4px 8px;
+    background-color: chocolate;
+}
+#clients {
+    flex-wrap: wrap;
+}
+#clients img {
+    width: 145px;
+    padding: 20px 42px;
+    height: auto;
+}
+#services .box img{
+    height: 190px;
+    width: 180px;
+}
+#contact-box form 
+{
+    width: 80%;
+}
+#section-2 {
+    margin: 35px 0px;
+}
+
+#client-section::before {
+    
+    height: 100%;
+    
+  }

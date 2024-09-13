@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Balsamiq Sans", sans-serif;
+  
+}
+
+html 
+{
+  scroll-behavior: smooth;
+}
+
+body 
+{
+  background-color: #dfe6e6;
+}
+#navbar {
+  /* background-color: lawngreen; */
+  /* flex-direction: row; */
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+#logo {
+  margin: -16px 15px;
+}
+
+#logo img {
+  height: 130px;
+  width: 130px;
+}
+#navbar::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#navbar ul {
+  display: flex;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 27px;
+  border-radius: 18px;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
+#navbar ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Home section  */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3px 200px;
+  align-items: center;
+  height: 720px;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: url(/image/Burger\ restaurant.jpg) no-repeat center center/cover;
+}
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+}
+.h-secondary {
+  font-size: 2.3rem;
+  padding: 12px;
+}
+#home h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+#home p {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 6px 20px;
+  background-color: whitesmoke;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 15px;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* Services Section  */
+
+#section-2 {
+  margin: 95px 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+#services {
+  margin: 34px;
+  display: flex;
+}
+
+#services .box {
+  border: 2px solid red;
+  padding: 34px;
+  margin: 3px 24px;
+  border-radius: 45px;
+  background-color: #fff3e5;
+}
+#services .box img {
+  height: 260px;
+  width: 260px;
+  margin: auto;
+  display: block;
+}
+
+/* #section-2::before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  z-index: -1;
+  background: url(/image/Burger\ Section\ Image.jpg) no-repeat center center/cover;
+  /* top: 911px; */
+/* left: 0; */
+/* opacity: 0.7;
+} */
+
+/* Clients section  */
+
+/* #clients-section {
+  /* height: 255px;
+ } */
+
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clients img {
+  height: 150px;
+}
+
+.clients-item {
+  padding: 23px;
+}
+
+#client-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  opacity: 0.6;
+  z-index: -1;
+  background: url(/image/Burger\ Section\ Image.jpg);
+}
+
+
+/* Contact section  */
+
+
+#contact
+{
+  position: relative;
+
+}
+#contact::before
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  background: url(/image/Background.jpg);
+}
+footer
+{
+  background: rgb(41, 39, 39);
+  color: white;
+  padding: 11px;
+}
+#contact-box input,
+#contact-box textarea{
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#contact-box 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 34px;
+}
+
+#contact-box form 
+{
+  width: 40%;
+
+}
+#contact-box label 
+{
+  font-size: 1.1rem;
+}
+
+
