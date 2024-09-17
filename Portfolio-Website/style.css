@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+    color: white;
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(35, 35, 6);
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li 
+{
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left
+{
+    font-size: 1.5rem;
+}
+
+.firstSection
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstSection div
+{
+    width: 30%;
+}
+
+.leftSection{}
+.rightSection{}
